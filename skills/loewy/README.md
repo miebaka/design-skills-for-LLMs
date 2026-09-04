@@ -4,7 +4,7 @@ Loewy is a brand-agnostic visual critique skill. It evaluates whether a design i
 
 The distinguishing concept is **MAYA: Most Advanced Yet Acceptable**. The skill asks whether the work is fresh enough to attract attention while remaining recognizable and credible to its intended audience.
 
-This README analyzes [Loewy.skill](../../Loewy.skill), including its rubric, output rules, and known ambiguities. Illustrative calculations and prompts are documentation examples, not results of a live critique. Where this README recommends a convention for an undefined case, it labels that convention explicitly.
+This README analyzes [Loewy.skill](Loewy.skill), including its rubric, output rules, and known ambiguities. Illustrative calculations and prompts are documentation examples, not results of a live critique. Where this README recommends a convention for an undefined case, it labels that convention explicitly.
 
 ## Contents
 
@@ -62,7 +62,7 @@ Its release verdict concerns visual taste and effectiveness. It does not certify
 
 ## Setup and invocation
 
-Import [Loewy.skill](../../Loewy.skill) in a host that supports packaged skills. The repository does not supply installation tooling or verified compatibility information.
+Import [Loewy.skill](Loewy.skill) in a host that supports packaged skills. The repository does not supply installation tooling or verified compatibility information.
 
 To inspect or extract it from the repository root:
 

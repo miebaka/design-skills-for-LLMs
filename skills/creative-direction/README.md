@@ -10,7 +10,7 @@ Its three modes answer different questions:
 | **CONCEPT** | What are three substantially different ways to communicate this brief? |
 | **ELEVATE** | What are the three highest-impact changes to the existing direction? |
 
-This README analyzes [Creative-Direction.skill](../../Creative-Direction.skill). It describes the packaged instructions, including their gaps and dependencies. Example prompts and implementation advice are documentation additions, not proof of tested assistant behavior.
+This README analyzes [Creative-Direction.skill](Creative-Direction.skill). It describes the packaged instructions, including their gaps and dependencies. Example prompts and implementation advice are documentation additions, not proof of tested assistant behavior.
 
 ## Contents
 
@@ -50,7 +50,7 @@ It supports brand identity, advertising, editorial work, corporate communication
 
 ## Setup and invocation
 
-Import [Creative-Direction.skill](../../Creative-Direction.skill) in a host that supports packaged skills. The exact controls and supported format must be established from your host; the repository does not include an installer or a list of verified platforms.
+Import [Creative-Direction.skill](Creative-Direction.skill) in a host that supports packaged skills. The exact controls and supported format must be established from your host; the repository does not include an installer or a list of verified platforms.
 
 For directory-based use, inspect and extract it from the repository root:
 

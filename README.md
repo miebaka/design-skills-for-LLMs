@@ -8,9 +8,9 @@ Each guide covers installation considerations, inputs, the complete framework, o
 
 | Skill | Best question to bring | Main output | Detailed guide | Package |
 | --- | --- | --- | --- | --- |
-| **Casey** | What idea should this design compress, and how should type and structure express it? | Seven qualitative tests; four modes; structured recommendations or three concepts. | [Casey README](docs/casey/README.md) | [Casey.skill](Casey.skill) |
-| **Creative Direction** | How good is this, what could it look like, or how do I improve it quickly? | CRITIQUE, CONCEPT, or ELEVATE; stage-sensitive intensity. | [Creative Direction README](docs/creative-direction/README.md) | [Creative-Direction.skill](Creative-Direction.skill) |
-| **Loewy** | Is this tasteful, appropriately distinctive, and visually ready? | Eight scores, seven ranked moves, and SHIP / REFINE / REBUILD. | [Loewy README](docs/loewy/README.md) | [Loewy.skill](Loewy.skill) |
+| **Casey** | What idea should this design compress, and how should type and structure express it? | Seven qualitative tests; four modes; structured recommendations or three concepts. | [Casey README](skills/casey/README.md) | [Casey.skill](skills/casey/Casey.skill) |
+| **Creative Direction** | How good is this, what could it look like, or how do I improve it quickly? | CRITIQUE, CONCEPT, or ELEVATE; stage-sensitive intensity. | [Creative Direction README](skills/creative-direction/README.md) | [Creative-Direction.skill](skills/creative-direction/Creative-Direction.skill) |
+| **Loewy** | Is this tasteful, appropriately distinctive, and visually ready? | Eight scores, seven ranked moves, and SHIP / REFINE / REBUILD. | [Loewy README](skills/loewy/README.md) | [Loewy.skill](skills/loewy/Loewy.skill) |
 
 ## Choose a starting point
 

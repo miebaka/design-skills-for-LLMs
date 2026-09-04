@@ -4,7 +4,7 @@ Casey is a design critique and creative direction skill built around the relatio
 
 Use it when a piece looks orderly but says little, when a concept is clever but poorly organized, or when you want an identity, poster, or campaign to emerge from its subject rather than an imported style.
 
-This README analyzes the instructions and reference material inside [Casey.skill](../../Casey.skill). It documents the packaged behavior; it does not introduce new requirements into the skill. Prompt examples and practical interpretations below are documentation examples, not results from a live evaluation.
+This README analyzes the instructions and reference material inside [Casey.skill](Casey.skill). It documents the packaged behavior; it does not introduce new requirements into the skill. Prompt examples and practical interpretations below are documentation examples, not results from a live evaluation.
 
 ## Contents
 
@@ -65,7 +65,7 @@ It is less complete as a standalone tool for usability research, accessibility c
 
 ### Use the packaged skill
 
-Download [Casey.skill](../../Casey.skill) and import it through a host that supports this package format. Installation controls, automatic discovery, and slash-command support depend on the host. The repository does not provide an installer or a compatibility matrix.
+Download [Casey.skill](Casey.skill) and import it through a host that supports this package format. Installation controls, automatic discovery, and slash-command support depend on the host. The repository does not provide an installer or a compatibility matrix.
 
 ### Inspect or install the extracted instructions
 
