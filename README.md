@@ -1,88 +1,83 @@
 # Design Skills for LLMs
 
-Three instruction packages for AI-assisted design critique and creative direction. Each provides a different way to judge visual work, explain what is wrong, and decide what to do next.
+Three open-source, platform-agnostic instruction packages that help designers critique work, develop concepts, refine visual taste, and learn the reasoning behind stronger design decisions.
 
-## Skill documentation
+## Skills
 
-Each guide covers installation considerations, inputs, the complete framework, operating modes, output requirements, example prompts, practical usage, and an analysis of strengths and limitations.
-
-| Skill | Best question to bring | Main output | Detailed guide | Package |
-| --- | --- | --- | --- | --- |
-| **Casey** | What idea should this design compress, and how should type and structure express it? | Seven qualitative tests; four modes; structured recommendations or three concepts. | [Casey README](skills/casey/README.md) | [Casey.skill](skills/casey/Casey.skill) |
-| **Creative Direction** | How good is this, what could it look like, or how do I improve it quickly? | CRITIQUE, CONCEPT, or ELEVATE; stage-sensitive intensity. | [Creative Direction README](skills/creative-direction/README.md) | [Creative-Direction.skill](skills/creative-direction/Creative-Direction.skill) |
-| **Loewy** | Is this tasteful, appropriately distinctive, and visually ready? | Eight scores, seven ranked moves, and SHIP / REFINE / REBUILD. | [Loewy README](skills/loewy/README.md) | [Loewy.skill](skills/loewy/Loewy.skill) |
-
-## Choose a starting point
-
-- Start with **Casey** when the missing ingredient is a subject-specific idea, visual metaphor, or typographic wit.
-- Start with **Creative Direction** for a broad critique, three different directions from a brief, or three focused improvement moves.
-- Start with **Loewy** for beauty, restraint, proportion, craft, and the balance between unfamiliarity and convention.
-
-For a longer project, use one primary framework at each stage. You might develop a concept with Casey, review its execution with Creative Direction, and use Loewy for a final taste pass. That sequence is a suggested workflow, not a requirement or an automated pipeline.
-
-## How the packages work
-
-Each `.skill` file is a ZIP archive containing Markdown instructions. These are prompts and reference material for a compatible assistant, not standalone applications. Import support, directory installation, automatic activation, and slash commands depend on the host.
-
-```text
-Casey.skill
-├── casey/SKILL.md
-└── casey/references/casey-biography-and-works.md
-
-Creative-Direction.skill
-└── creative-direction/SKILL.md
-
-Loewy.skill
-└── loewy/SKILL.md
-```
-
-No package bundles scripts, fonts, images, or design application integrations. Casey includes a textual reference document; the other two keep their reference descriptions within the main instructions.
-
-For inspection, run `unzip -l` with the relevant package filename. Each guide includes an extraction example. Preserve the internal directory structure, particularly Casey's relative reference path.
-
-Once the host has loaded a skill, a request can be as direct as:
-
-```text
-Use the creative-direction skill in CRITIQUE mode at BUILD intensity.
-Review the attached poster for a mobile audience. The primary message
-is the workshop topic, followed by the registration action. Keep all
-required event details. Give specific, prioritized changes.
-```
-
-## What to provide
-
-A visible artifact or a clear brief, the audience, intended message, placement, dimensions, and constraints make the reviews more useful. Include current brand guidance where relevant. A written description supports conceptual feedback but does not let an assistant verify the actual file's visual finish.
-
-These skills do not create access to a linked file, install a design tool, conduct audience research, or establish production readiness. Their recommendations depend on the evidence and capabilities available to the assistant.
-
-## Important distinctions
-
-| Detail | Casey | Creative Direction | Loewy |
+| Skill | Primary role | Detailed guide | Package |
 | --- | --- | --- | --- |
-| Core framework | Seven qualitative tests. | Eight applicable critique dimensions. | Eight required rubric dimensions. |
-| Numerical scale | None specified. | 1–10 for applicable dimensions. | 0–10 for eight dimensions. |
-| Final verdicts | No fixed verdict vocabulary. | EXCEPTIONAL / SOLID / MEDIOCRE / WEAK. | SHIP / REFINE / REBUILD. |
-| Concept generation | Three directions in Direction Mode. | Three concepts in CONCEPT mode. | No dedicated concept mode. |
-| Recommendation count | Seven in Critique and Interrogation. | One primary move in CRITIQUE; three in ELEVATE. | Seven, at least four removing or simplifying. |
-| Tone adjustment | Forceful, specific persona; no level setting. | EXPLORE / BUILD / SHIP intensity. | Blunt critique with explicit respect for the maker. |
-| External context | Subject and audience; bundled historical reference. | Current brand guidance and campaign examples when relevant. | Audience and category context for MAYA. |
+| **Casey** | Concept, metaphor, typographic meaning, and structural clarity. | [Read the guide](skills/casey/README.md) | [Download](skills/casey/Casey.skill) |
+| **Creative Direction** | Broad critique, concept generation, elevation, and cross-medium direction. | [Read the guide](skills/creative-direction/README.md) | [Download](skills/creative-direction/Creative-Direction.skill) |
+| **Loewy** | Taste, restraint, form, MAYA calibration, and release judgment. | [Read the guide](skills/loewy/README.md) | [Download](skills/loewy/Loewy.skill) |
 
-Do not compare scores directly across frameworks. In Creative Direction, SHIP names an intensity level; in Loewy, it names a verdict.
+## Choose the right skill
 
-## Findings from the documentation review
+- Use **Casey** when the central problem is what the design means and how its visual idea emerges from the subject.
+- Use **Creative Direction** when you need the broadest diagnosis, several new directions, or a prioritized improvement pass.
+- Use **Loewy** when you need a final judgment about clarity, form, taste, and whether the work should ship.
 
-- **Casey:** the most developed conceptual lens, with an included reference document. It has no numerical scoring system and leaves System Mode's response format relatively open.
-- **Creative Direction:** the broadest workflow coverage. Its referenced historical “archive” is not included; brand context comes from materials supplied for the task. Weighting, rounding, and Critical severity are not fully specified.
-- **Loewy:** the clearest taste-review template and minimum-score gate. Its main file duplicates its metadata, and a high average with a lowest dimension of 4–6 is not fully covered by the written verdict ranges.
+The metadata intentionally separates these roles so a generic design request does not need to invoke all three.
 
-The individual guides explain these findings and distinguish source requirements from recommended interpretations. The packages use brand-agnostic instructions. Creative Direction uses supplied brand context without requiring brand-specific companion skills.
+## Version 2 principles
 
-## Documentation scope
+The collection now prioritizes teaching and evidence over theatrical criticism.
 
-The guides were initially written from every Markdown file contained in the three packages at repository commit `7c65eaa0d0feb703f24005b5f75775b7a8933c24` of [miebaka/design-skills-for-LLMs](https://github.com/miebaka/design-skills-for-LLMs).
+Every skill:
 
-Creative Direction and its documentation were subsequently updated to make the instructions brand-agnostic.
+- distinguishes visible observation from interpretation;
+- turns recommendations into testable success criteria;
+- states assumptions and confidence when evidence is incomplete;
+- adapts its judgment to the medium and design stage;
+- avoids treating numerical scores as objective measurements;
+- distinguishes design taste from usability, accessibility, brand, copy, legal, and production checks;
+- supports revision comparison;
+- includes a Learning Mode for junior designers;
+- keeps its core entry file concise and loads detailed references only when relevant.
 
-This was a source-content review, not a cross-platform installation test or live evaluation of model output. Historical examples and quotations are documented as package content; they have not been independently fact-checked here. Practical examples are illustrative.
+The goal is not to let AI declare what good taste is. It is to make visual reasoning explicit enough that a designer can question it, test it, and eventually use it independently.
 
-The repository snapshot contains no license file. These READMEs do not establish new licensing terms for the packages or any third-party historical material they reference.
+## Package structure
+
+```text
+skills/
+├── casey/
+│   ├── Casey.skill
+│   └── README.md
+├── creative-direction/
+│   ├── Creative-Direction.skill
+│   └── README.md
+└── loewy/
+    ├── Loewy.skill
+    └── README.md
+```
+
+Each `.skill` file is a ZIP archive containing `SKILL.md` and relevant references. It contains instructions rather than executable software. Import support, automatic invocation, and slash commands depend on the AI host.
+
+## Evidence and scope
+
+A visible artifact or clear brief, audience, intended message, medium, dimensions, design stage, and constraints produce the strongest review. A static screenshot supports visible composition judgments but cannot prove accessibility, interaction quality, print readiness, licensing, or actual audience behavior.
+
+These skills should not manufacture certainty. When a specialist review is needed, they identify it instead of stretching a taste framework beyond its evidence.
+
+## Suggested learning workflow
+
+1. Ask the junior designer to state the intended idea and focal point.
+2. Run the appropriate skill in Learning Mode.
+3. Compare the designer's reasoning with the review's visible evidence.
+4. Change one variable in the next version.
+5. Re-evaluate using the same success criterion.
+6. Record the reusable principle rather than only the final score or verdict.
+
+## Example
+
+```text
+Use Creative Direction in Learning Mode to review this mobile screen.
+First ask me to identify its message, focal point, and weakest decision.
+Then compare my reasoning with visible evidence. Give me one principle,
+one bounded exercise, and a success criterion for the next version.
+Do not infer interaction states that are not shown.
+```
+
+## License and historical material
+
+The repository currently has no license file. The packages reference historical designers and works as interpretive context. Verify quotations, dates, and attribution before reusing them in published historical or academic material.
