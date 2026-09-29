@@ -7,7 +7,7 @@ Three open-source, platform-agnostic instruction packages that help designers cr
 | Skill | Primary role | Detailed guide | Package |
 | --- | --- | --- | --- |
 | **Casey** | Concept, metaphor, typographic meaning, and structural clarity. | [Read the guide](skills/casey/README.md) | [Download](skills/casey/Casey.skill) |
-| **Creative Direction** | Broad critique, concept generation, elevation, and cross-medium direction. | [Read the guide](skills/creative-direction/README.md) | [Download](skills/creative-direction/Creative-Direction.skill) |
+| **Creative Direction** | Graphic-design-first critique, concept generation, systems thinking, and cross-disciplinary direction. | [Read the guide](skills/creative-direction/README.md) | [Download](skills/creative-direction/Creative-Direction.skill) |
 | **Loewy** | Taste, restraint, form, MAYA calibration, and release judgment. | [Read the guide](skills/loewy/README.md) | [Download](skills/loewy/Loewy.skill) |
 
 ## Choose the right skill
@@ -18,7 +18,7 @@ Three open-source, platform-agnostic instruction packages that help designers cr
 
 The metadata intentionally separates these roles so a generic design request does not need to invoke all three.
 
-## Version 2.1 principles
+## Version 2.2 principles
 
 The collection now prioritizes teaching and evidence over theatrical criticism.
 
@@ -34,7 +34,9 @@ Every skill:
 - includes a Learning Mode for junior designers;
 - keeps its core entry file concise and loads detailed references only when relevant.
 
-Creative Direction 2.1 adds a dedicated editorial-cover framework. It separates a story's topic from its proposition, directs the relationship between image and language, evaluates immediate and delayed readings, and adds truth, dignity, provenance, identity, sequence, thumbnail, neighbor, and physical-object checks. The framework draws lessons from editorial-cover practice without copying any publication's trade dress.
+Creative Direction 2.2 is explicitly graphic-design-first. It adds a canonical framework for content hierarchy, grids and composition, typography, image direction, color, graphic devices, identity and campaign systems, production, adaptation, and craft. A separate translation layer carries that reasoning into interface, spatial, service, industrial, packaging, motion, data, and fashion work without reducing those fields to visual styling or pretending to replace specialist validation.
+
+The dedicated editorial-cover framework remains as a specialist branch. It separates a story's topic from its proposition, directs the relationship between image and language, evaluates immediate and delayed readings, and adds truth, dignity, provenance, identity, sequence, thumbnail, neighbor, physical-object, cover-family, cadence, motion, and cultural-legibility checks.
 
 The goal is not to let AI declare what good taste is. It is to make visual reasoning explicit enough that a designer can question it, test it, and eventually use it independently.
 

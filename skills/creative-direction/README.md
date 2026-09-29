@@ -1,10 +1,10 @@
 # Creative Direction
 
-Creative Direction is the broad, brand-agnostic skill in this collection. It critiques existing work, develops distinct concepts from a brief, improves a sound direction, and teaches junior designers how to reason about their choices.
+Creative Direction is the graphic-design-first, brand-agnostic skill in this collection. It critiques existing work, develops distinct concepts from a brief, improves a sound direction, and teaches designers how to reason about their choices.
 
-Use it when the task spans the idea, communication, and execution of graphic, identity, editorial, campaign, presentation, web, interface, data-visualization, or packaging work.
+Use it for identities, editorial, campaigns, typography-led communication, packaging, presentations, and digital surfaces. It also translates graphic-design reasoning into interface, spatial, service, industrial, motion, data, and fashion work without treating those fields as surface styling.
 
-## What changed in version 2.1
+## What changed in version 2.2
 
 The original rubric averaged eight unlike dimensions into one score. That could hide the difference between a strong idea with rough execution and polished work with no meaningful idea. Its universal heuristics also favored posters and reduction even when the medium required density or familiar interaction patterns.
 
@@ -23,7 +23,17 @@ Version 2:
 - adds Learning Mode for junior designers;
 - separates substantial modes into references for lower context use.
 
-Version 2.1 adds a deep editorial-cover branch built from longitudinal cover analysis. It does not prescribe an aesthetic. It teaches the assistant to direct the story's proposition, choose a truthful visual mechanism, manage first and second readings, and test a cover in its actual distribution system.
+Version 2.1 added a deep editorial-cover branch built from longitudinal cover analysis. It does not prescribe an aesthetic. It teaches the assistant to direct the story's proposition, choose a truthful visual mechanism, manage first and second readings, and test a cover in its actual distribution system.
+
+Version 2.2 establishes graphic design as the skill's center of gravity:
+
+- a mandatory graphic-design spine for hierarchy, grids, composition, typography, imagery, color, graphic devices, material, systems, production, adaptation, and craft;
+- graphic premises that connect an idea to a repeatable formal rule rather than a mood or style adjective;
+- implementable recommendations that name the variable, action, intended effect, and success criterion;
+- campaign-family, identity-system, copy-architecture, and stress-testing guidance;
+- conditional Use / Performance and System diagnoses when the work extends beyond a single artifact;
+- a cross-disciplinary translation framework that adds functional evidence without confusing visual direction with usability, engineering, architecture, garment construction, or service operations;
+- expanded routing for presentations, motion, spatial design, products and furniture, services, fashion, and structural packaging.
 
 ## Package structure
 
@@ -34,8 +44,10 @@ Creative-Direction.skill
     └── references/
         ├── critique.md
         ├── concept.md
+        ├── cross-disciplinary.md
         ├── elevate.md
         ├── editorial-covers.md
+        ├── graphic-design.md
         ├── learning.md
         └── media.md
 ```
@@ -73,7 +85,9 @@ It examines hierarchy, comprehension in the actual viewing context, and audience
 
 ### Execution
 
-It examines composition, typography, color, imagery when applicable, and craft.
+For graphic work it examines composition, typography, imagery, color, graphic devices, system behavior, adaptation, production, and craft.
+
+For interactive, spatial, service, and physical work, the diagnosis conditionally adds **Use / Performance**. Identities, campaigns, publications, families, and multi-touchpoint work conditionally add **System**. Unsupported dimensions are marked Not assessable rather than Weak.
 
 Keeping these groups separate makes the response more diagnostic:
 
@@ -81,6 +95,8 @@ Keeping these groups separate makes the response more diagnostic:
 Idea: Strong
 Communication: Developing
 Execution: Strong
+Use / Performance: Not assessable
+System: Developing
 ```
 
 This indicates that the concept and craft should be preserved while hierarchy or comprehension is revised. A single average would conceal that distinction.
@@ -95,6 +111,22 @@ Observation → Interpretation → Recommendation → Success criterion
 
 The assistant states its assumptions and avoids claiming tested comprehension, accessibility, interaction quality, print readiness, licensing, exact measurements, or audience behavior without supporting evidence.
 
+## Graphic-design spine
+
+Every task reads the graphic-design reference. It directs:
+
+- content and copy architecture;
+- first, second, and third reads;
+- composition, format, grids, counterspace, rhythm, edges, and controlled exceptions;
+- typographic roles, hierarchy, spacing, line behavior, optical relationships, language support, and reproduction;
+- photographic, illustrative, documentary, conceptual, atmospheric, and identity imagery;
+- color as hierarchy, meaning, grouping, identity, navigation, material, and production;
+- graphic devices, material language, authored imperfection, and craft;
+- invariant assets, meaningful variables, adaptation rules, exceptions, governance, and system stress tests;
+- relevant production and platform conditions without claiming unverified preflight readiness.
+
+The skill asks for a **graphic premise**: the repeatable relationship among content and form that translates the idea. “Bold,” “clean,” “premium,” and “editorial” are moods, not premises.
+
 ## Concept Mode
 
 Concepts begin from one shared strategy sentence:
@@ -104,7 +136,7 @@ Communicate [message] to [audience] in [context] so they [response],
 while respecting [constraints].
 ```
 
-The skill produces three directions only when breadth is useful. The alternatives must differ in underlying idea or mechanism rather than merely typeface, color, or crop. Each direction includes its immediate and deeper read, visual logic, relationship to the brief, asset needs, effort, dependencies, failure mode, and a cheap test.
+The skill produces three directions only when breadth is useful. The alternatives must differ in underlying idea or mechanism rather than merely typeface, color, or crop. Each direction includes its graphic premise; first encounter and reading or use sequence; content, composition, type, image, color and material logic; system behavior; asset needs; dependencies; failure mode; and a cheap test.
 
 Directions are ranked using relevance, comprehension, distinctiveness, tone, truth, feasibility, and system fit.
 
@@ -121,11 +153,19 @@ The package includes dedicated criteria for:
 - editorial interiors and decks;
 - websites and interfaces;
 - data visualization;
-- packaging.
+- packaging;
+- presentations and decks;
+- motion, title, and broadcast work;
+- spatial, retail, exhibition, and wayfinding systems;
+- industrial products and furniture;
+- services;
+- fashion.
 
 For UI, it considers task clarity, interaction hierarchy, affordance, state visibility, consistency, error handling, responsive behavior, and available accessibility evidence. A screenshot supports only the visible state; unseen interactions should not be invented.
 
 For data visualization, necessary density is not treated as clutter. The review considers the analytical question, encoding integrity, comparisons, annotations, and uncertainty.
+
+For adjacent fields, the skill preserves its graphic-design lens while adding the evidence the field requires. It will not infer a workflow from a hero screen, circulation from a render, comfort from a product beauty shot, service performance from a journey map, garment fit from campaign imagery, or manufacturing quality from a mockup.
 
 ## Editorial-cover direction
 
@@ -169,6 +209,8 @@ DIAGNOSIS
   Idea: Strong / Developing / Weak
   Communication: Strong / Developing / Weak
   Execution: Strong / Developing / Weak
+  Use / Performance: Strong / Developing / Weak / Not assessable (when relevant)
+  System: Strong / Developing / Weak / Not assessable (when relevant)
 EVIDENCE
 PRIORITIES
   Blocking / Major / Minor / Optional
