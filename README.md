@@ -18,7 +18,7 @@ Three open-source, platform-agnostic instruction packages that help designers cr
 
 The metadata intentionally separates these roles so a generic design request does not need to invoke all three.
 
-## Version 2 principles
+## Version 2.1 principles
 
 The collection now prioritizes teaching and evidence over theatrical criticism.
 
@@ -33,6 +33,8 @@ Every skill:
 - supports revision comparison;
 - includes a Learning Mode for junior designers;
 - keeps its core entry file concise and loads detailed references only when relevant.
+
+Creative Direction 2.1 adds a dedicated editorial-cover framework. It separates a story's topic from its proposition, directs the relationship between image and language, evaluates immediate and delayed readings, and adds truth, dignity, provenance, identity, sequence, thumbnail, neighbor, and physical-object checks. The framework draws lessons from editorial-cover practice without copying any publication's trade dress.
 
 The goal is not to let AI declare what good taste is. It is to make visual reasoning explicit enough that a designer can question it, test it, and eventually use it independently.
 

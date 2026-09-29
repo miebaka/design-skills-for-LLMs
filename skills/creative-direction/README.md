@@ -4,7 +4,7 @@ Creative Direction is the broad, brand-agnostic skill in this collection. It cri
 
 Use it when the task spans the idea, communication, and execution of graphic, identity, editorial, campaign, presentation, web, interface, data-visualization, or packaging work.
 
-## What changed in version 2
+## What changed in version 2.1
 
 The original rubric averaged eight unlike dimensions into one score. That could hide the difference between a strong idea with rough execution and polished work with no meaningful idea. Its universal heuristics also favored posters and reduction even when the medium required density or familiar interaction patterns.
 
@@ -23,6 +23,8 @@ Version 2:
 - adds Learning Mode for junior designers;
 - separates substantial modes into references for lower context use.
 
+Version 2.1 adds a deep editorial-cover branch built from longitudinal cover analysis. It does not prescribe an aesthetic. It teaches the assistant to direct the story's proposition, choose a truthful visual mechanism, manage first and second readings, and test a cover in its actual distribution system.
+
 ## Package structure
 
 ```text
@@ -33,6 +35,7 @@ Creative-Direction.skill
         ├── critique.md
         ├── concept.md
         ├── elevate.md
+        ├── editorial-covers.md
         ├── learning.md
         └── media.md
 ```
@@ -61,6 +64,8 @@ Ship is a stage, not a numerical verdict. The skill no longer treats the possibi
 ### Idea
 
 The skill examines relevance to the brief, clarity of the governing idea, and distinctiveness.
+
+For editorial work, it also distinguishes the subject from the specific claim or question the publication is placing on the cover.
 
 ### Communication
 
@@ -101,7 +106,9 @@ while respecting [constraints].
 
 The skill produces three directions only when breadth is useful. The alternatives must differ in underlying idea or mechanism rather than merely typeface, color, or crop. Each direction includes its immediate and deeper read, visual logic, relationship to the brief, asset needs, effort, dependencies, failure mode, and a cheap test.
 
-Directions are ranked using relevance, comprehension, distinctiveness, feasibility, and system fit.
+Directions are ranked using relevance, comprehension, distinctiveness, tone, truth, feasibility, and system fit.
+
+Before developing directions, the assistant maps a broader decision space—literal evidence, human experience, system or structure, language, object, transformation, and metaphor—then removes mechanisms that would distort the message or tone.
 
 ## Medium-specific review
 
@@ -110,7 +117,8 @@ The package includes dedicated criteria for:
 - posters, social graphics, and ads;
 - identities;
 - campaigns;
-- editorial work and decks;
+- editorial covers;
+- editorial interiors and decks;
 - websites and interfaces;
 - data visualization;
 - packaging.
@@ -118,6 +126,40 @@ The package includes dedicated criteria for:
 For UI, it considers task clarity, interaction hierarchy, affordance, state visibility, consistency, error handling, responsive behavior, and available accessibility evidence. A screenshot supports only the visible state; unseen interactions should not be invented.
 
 For data visualization, necessary density is not treated as clutter. The review considers the analytical question, encoding integrity, comparisons, annotations, and uncertainty.
+
+## Editorial-cover direction
+
+The editorial-cover reference begins with four lines:
+
+```text
+Topic → Claim → Tension → Cover move
+```
+
+This prevents a cover from merely illustrating a category such as housing, elections, health, or technology without expressing what the story actually says.
+
+It then identifies the editorial act—such as witnessing, explaining, accusing, complicating, commemorating, celebrating, satirizing, humanizing, or archiving—and selects a visual mechanism that can perform that act truthfully. Supported mechanisms include documentary evidence, portraiture, objects, material transformation, visual metaphor, typography, diagrams, archives, illustration, satire, absence, and direct headline-image combinations.
+
+The framework evaluates four cover jobs independently:
+
+1. **Signal:** interrupt the surrounding field.
+2. **Orient:** establish subject, stakes, or emotional register.
+3. **Reward:** provide a consequential second reading.
+4. **Entitle:** justify giving this story the publication's finite cover space.
+
+It classifies image-language relationships as Anchor, Turn, Extend, Counterpoint, Redundant, or Dependent, then records the cover's immediate read, glance-level understanding, close read, and emotional residue.
+
+Required checks can include:
+
+- proposition and plausible-misread tests;
+- thumbnail, distance, and five-second-recall tests;
+- a covered-copy test and its image-hidden inverse;
+- truth, provenance, dignity, and power review;
+- neighbor and recent-issue sequence tests;
+- physical trim, fold, binding, barcode, finish, and handling checks.
+
+Distribution matters. A newspaper insert with a famous masthead can take identity risks that an unfamiliar newsstand title cannot. The skill therefore treats masthead obstruction, sparse cover lines, aggressive reduction, and social-feed performance as contextual decisions—not universal markers of sophistication.
+
+The reference explicitly warns against copying another publication's masthead behavior, typography, palette, recurring format, or recognizable composition. It transfers editorial reasoning rather than trade dress.
 
 ## Default output
 
